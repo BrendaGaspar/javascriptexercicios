@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var idade = prompt("Digite a Sua Idade");
+
+        if (idade < 16) {
+            alert("Você é Menor de Idade, Você tem "+idade+" anos, Você não Pode Votar")
+        }
+        else if ((idade >= 16) && (idade < 18) ) {
+            alert("Você tem "+idade+" anos, Seu Voto é Opcional")
+        }
+        else if ((idade >= 18) && (idade < 70) ) {
+            alert("Você é Maior de Idade, Você tem "+idade+" anos, Seu Voto é Obrigatório")
+        } 
+        else if (idade >= 70) {
+            alert("Você tem "+idade+" anos, Seu Voto é Opcional")
+        } 
+    </script>
+</body>
+</html>
